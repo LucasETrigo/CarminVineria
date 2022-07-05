@@ -6,3 +6,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+/*====== Footer ======*/
+footer {
+    width: 100%;
+    margin-top: 600px;
+    padding: 100px;
+    color: #efefef;
+    background-color: #333;
+    display: flex;
+}
+footer div {
+    text-align: center;
+}
+.col-2 {
+    flex-grow: 2;
+}
+
+footer div h3 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.col-1 a {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input {
+    height: 45px;
+    width: 400px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button {
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 27px;
+    margin: 10px;
+    cursor: pointer;
+}
