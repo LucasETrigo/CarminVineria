@@ -74,68 +74,75 @@ footer {
     color: #dee2e6;
 }
 
-/*
-footer {
-    width: 100%;
-    margin-top: 600px;
-    padding: 100px;
-    color: #efefef;
-    background-color: #333;
+
+
+/* PAGINA: SOBRE NOSOTROS */
+
+
+nosotros-main{
     display: flex;
-}
-footer div {
-    text-align: center;
-}
-.col-2 {
-    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
 }
 
-footer div h3 {
-    font-weight: 300;
-    letter-spacing: 1px;
+.about-section{
+    background: url(pic.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container-nosotros{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container-nosotros h1{
     margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
-.col-1 a {
-    display: block;
-    text-decoration: none;
-    color: #efefef;
-    margin-bottom: 10px;
-}
-
-form input {
-    height: 45px;
-    width: 400px;
-    border-radius: 4px;
-    text-align: center;
-    margin-top: 20px;
+.text-nosotros{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
     margin-bottom: 40px;
-    outline: none;
-    border: none;
-}
-form button {
-    color: #fff;
-    background: transparent;
-    border: 2px solid #fff;
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 15px;
-    cursor: pointer;
 }
 
-.social-icons {
-    margin-top: 30px;
+.nosotros-complementos{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
 }
 
-.social-icons a {
-    color: #fff;
-    text-decoration: none;
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
 }
 
-.social-icons i {
-    font-size: 27px;
-    margin: 10px;
-    cursor: pointer;
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
 }
 
-*/
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
