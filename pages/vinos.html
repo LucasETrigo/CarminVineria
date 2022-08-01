@@ -1,503 +1,967 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--====== Insertar Favicon ======-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!--====== Titulo ======-->
-    <title>Carmin Vineria - Vinos</title>
-    <!--====== Import de CSS ======-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <!--====== Import de FontAwesome ======-->
-    <script src="https://kit.fontawesome.com/610e8864bc.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--====== Insertar Favicon ======-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <!--====== Titulo ======-->
+        <title>Carmin Vineria - Vinos</title>
+        <!--====== Import de CSS ======-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../css/style.css" />
+        <!--====== Import de FontAwesome ======-->
+        <script
+            src="https://kit.fontawesome.com/610e8864bc.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
 
-
-<body>
-    <!--====== Header ======-->
-    <header>
-                <!-- logo -->
-        <!--Navbar Bootstrap-->
-        <nav class="navbar navbar-light bg-white shadow-sm">
-            <div class="container justify-content-between">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../images/logo.jfif" width="auto" height="53" alt="logo Carmin Vinos">
-                </a>
-                <ul class="navbar-nav flex-row justify-content-between w-50 d-none d-md-flex">
-                    <li class="nav-item"><a class="nav-link" href="./nosotros.html">¿Quiénes somos?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./vinos.html">Nuestros vinos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./destacados.html">Destacados</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./delicomplementos.html">Deli y complementos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                </ul>
-                <button class="navbar-toggler d-flex d-md-none" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <a class="navbar-brand" href="./index.html">
-                            <img src="./assets/logo_carmin_vinos.png" width="auto" height="53"
-                                alt="logo Carmin Vinos">
-                        </a>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="./nosotros.html">¿Quiénes somos?</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./vinos.html">Nuestros vinos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./destacados.html">Destacados</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./delicomplementos.html">Deli y complementos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                        </ul>
+    <body>
+        <!--====== Header ======-->
+        <header>
+            <!-- logo -->
+            <!--Navbar Bootstrap-->
+            <nav class="navbar navbar-light bg-white shadow-sm">
+                <div class="container justify-content-between">
+                    <a class="navbar-brand" href="../index.html">
+                        <img
+                            src="../images/logo.jfif"
+                            width="auto"
+                            height="53"
+                            alt="logo Carmin Vinos"
+                        />
+                    </a>
+                    <ul
+                        class="navbar-nav flex-row justify-content-between w-50 d-none d-md-flex"
+                    >
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html"
+                                >¿Quiénes somos?</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./vinos.html"
+                                >Nuestros vinos</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./destacados.html"
+                                >Destacados</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./delicomplementos.html"
+                                >Deli y complementos</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html"
+                                >Contacto</a
+                            >
+                        </li>
+                    </ul>
+                    <button
+                        class="navbar-toggler d-flex d-md-none"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="offcanvas offcanvas-end"
+                        tabindex="-1"
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel"
+                    >
+                        <div class="offcanvas-header">
+                            <a class="navbar-brand" href="./index.html">
+                                <img
+                                    src="./assets/logo_carmin_vinos.png"
+                                    width="auto"
+                                    height="53"
+                                    alt="logo Carmin Vinos"
+                                />
+                            </a>
+                            <button
+                                type="button"
+                                class="btn-close text-reset"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./nosotros.html"
+                                        >¿Quiénes somos?</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./vinos.html"
+                                        >Nuestros vinos</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./destacados.html"
+                                        >Destacados</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        href="./delicomplementos.html"
+                                        >Deli y complementos</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contacto.html"
+                                        >Contacto</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-        <!-- Final Barra de Navegación y Menú -->
+            </nav>
+            <!-- Final Barra de Navegación y Menú -->
+        </header>
 
-    </header>
-
-
-    <!--====== Main ======-->
-    <section class="section-products">
-		<div class="container">
-				<div class="row justify-content-center text-center">
-						<div class="col-md-8 col-lg-6">
-								<div class="header">
-										<h3>Nuestros Vinos</h3>
-										<h2>Mas Populares</h2>
-								</div>
-						</div>
-				</div>
-				<div class="row">
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-								<div id="product-1" class="single-product">
-										<div class="part-1">
-												<ul>
-														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-														<li><a href="#"><i class="fas fa-heart"></i></a></li>
-														<li><a href="#"><i class="fas fa-plus"></i></a></li>
-														<li><a href="#"><i class="fas fa-expand"></i></a></li>
-												</ul>
-										</div>
-										<div class="part-2">
-												<h3 class="product-title">Viñatero</h3>
-												<h4 class="product-old-price">$precio</h4>
-												<h4 class="product-price">$precio</h4>
-										</div>
-								</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-								<div id="product-2" class="single-product">
-										<div class="part-1">
-												<span class="discount">15% off</span>
-												<ul>
-														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-														<li><a href="#"><i class="fas fa-heart"></i></a></li>
-														<li><a href="#"><i class="fas fa-plus"></i></a></li>
-														<li><a href="#"><i class="fas fa-expand"></i></a></li>
-												</ul>
-										</div>
-										<div class="part-2">
-												<h3 class="product-title">Argentinas</h3>
-												<h4 class="product-price">$precio</h4>
-										</div>
-								</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-								<div id="product-3" class="single-product">
-										<div class="part-1">
-												<ul>
-														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-														<li><a href="#"><i class="fas fa-heart"></i></a></li>
-														<li><a href="#"><i class="fas fa-plus"></i></a></li>
-														<li><a href="#"><i class="fas fa-expand"></i></a></li>
-												</ul>
-										</div>
-										<div class="part-2">
-												<h3 class="product-title">Cinco Sentidos Sauvignon</h3>
-												<h4 class="product-old-price">$precio</h4>
-												<h4 class="product-price">$precio</h4>
-										</div>
-								</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-								<div id="product-4" class="single-product">
-										<div class="part-1">
-												<span class="new">new</span>
-												<ul>
-														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-														<li><a href="#"><i class="fas fa-heart"></i></a></li>
-														<li><a href="#"><i class="fas fa-plus"></i></a></li>
-														<li><a href="#"><i class="fas fa-expand"></i></a></li>
-												</ul>
-										</div>
-										<div class="part-2">
-												<h3 class="product-title">Cinco Sentidos Malbec</h3>
-												<h4 class="product-price">$precio</h4>
-										</div>
-								</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-								<div id="product-5" class="single-product">
-										<div class="part-1">
-												<ul>
-														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-														<li><a href="#"><i class="fas fa-heart"></i></a></li>
-														<li><a href="#"><i class="fas fa-plus"></i></a></li>
-														<li><a href="#"><i class="fas fa-expand"></i></a></li>
-												</ul>
-										</div>
-										<div class="part-2">
-												<h3 class="product-title">Cinco Sentidos Gran Reserva</h3>
-												<h4 class="product-old-price">$precio</h4>
-												<h4 class="product-price">$precio</h4>
-										</div>
-								</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-								<div id="product-6" class="single-product">
-										<div class="part-1">
-												<span class="discount">15% off</span>
-												<ul>
-														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-														<li><a href="#"><i class="fas fa-heart"></i></a></li>
-														<li><a href="#"><i class="fas fa-plus"></i></a></li>
-														<li><a href="#"><i class="fas fa-expand"></i></a></li>
-												</ul>
-										</div>
-										<div class="part-2">
-												<h3 class="product-title">Pala Corazon Malbec</h3>
-												<h4 class="product-price">$precio</h4>
-										</div>
-								</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-								<div id="product-7" class="single-product">
-										<div class="part-1">
-												<ul>
-														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-														<li><a href="#"><i class="fas fa-heart"></i></a></li>
-														<li><a href="#"><i class="fas fa-plus"></i></a></li>
-														<li><a href="#"><i class="fas fa-expand"></i></a></li>
-												</ul>
-										</div>
-										<div class="part-2">
-												<h3 class="product-title">Marchiori Barraud</h3>
-												<h4 class="product-old-price">$precio</h4>
-												<h4 class="product-price">$precio</h4>
-										</div>
-								</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-								<div id="product-8" class="single-product">
-										<div class="part-1">
-												<span class="new">new</span>
-												<ul>
-														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-														<li><a href="#"><i class="fas fa-heart"></i></a></li>
-														<li><a href="#"><i class="fas fa-plus"></i></a></li>
-														<li><a href="#"><i class="fas fa-expand"></i></a></li>
-												</ul>
-										</div>
-										<div class="part-2">
-												<h3 class="product-title">Punto Final Malbec</h3>
-												<h4 class="product-price">$precio</h4>
-										</div>
-								</div>
-						</div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-9" class="single-product">
-                                    <div class="part-1">
-                                            <span class="new">new</span>
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Colonia Las Liebres</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-10" class="single-product">
-                                    <div class="part-1">
-                                            <span class="new">new</span>
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Mariflor Malbec</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-11" class="single-product">
-                                    <div class="part-1">
-                                            <span class="new">new</span>
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Crios Malbec</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-12" class="single-product">
-                                    <div class="part-1">
-                                            <span class="new">new</span>
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Cinco Sentidos Reserva Malbec</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-13" class="single-product">
-                                    <div class="part-1">
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Finca las Nubes</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-14" class="single-product">
-                                    <div class="part-1">
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Felino Malbec</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-15" class="single-product">
-                                    <div class="part-1">
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Herencia Trabajo Malbec</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-16" class="single-product">
-                                    <div class="part-1">
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Cinco Sentidos Espumante Rose</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-17" class="single-product">
-                                    <div class="part-1">
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Mastroeni Dulce Natural</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-18" class="single-product">
-                                    <div class="part-1">
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Rebelado Wines Malbec</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-                            <div id="product-19" class="single-product">
-                                    <div class="part-1">
-                                            <ul>
-                                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
-                                            </ul>
-                                    </div>
-                                    <div class="part-2">
-                                            <h3 class="product-title">Aqui Estamos Todos Locos</h3>
-                                            <h4 class="product-price">$precio</h4>
-                                    </div>
-                            </div>
-                        </div>
-				</div>
-		</div>
-</section>
-
-
-
-
-
-
-
-    <!--====== Footer ======-->
-
-
-    <footer>
-        <div class="py-6 bg-gray">
+        <!--====== Main ======-->
+        <section class="section-products">
             <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-8 col-lg-6">
+                        <div class="header">
+                            <h3>Nuestros Vinos</h3>
+                            <h2>Mas Populares</h2>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="fw-bold text-uppercase text-heading mb-3">Carmin Vineria</div>
-                        <p>El vino humedece el alma y calma las penas.</p>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a class="text-para" href="https://instagram.com/carmin.vineria?igshid=YmMyMTA2M2Y=" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a class="text-para" href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a class="text-para" href="https://whatsapp.com" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                        <h6 class="text-uppercase text-heading mb-3">Links Importantes</h6>
-                        <ul class="list-unstyled">
-                            <li><a class="text-para" href="./nosotros.html">Sobre Nosotros</a></li>
-                            <li><a class="text-para" href="./vinos.html">Vinos</a></li>
-                            <li><a class="text-para" href="./contacto.html">Contacto</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                        <h6 class="text-uppercase text-heading mb-3">Politicas</h6>
-                        <ul class="list-unstyled">
-                            <li><a class="text-para" href="./terminoscondiciones.html">Terminos & Condiciones</a></li>
-                            <li><a class="text-para" href="./politicaprivacidad.html">Politicas de Privacidad</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <h6 class="text-uppercase text-heading mb-3">Ofertas & Descuentos</h6>
-                        <p class="mb-3">Subcribite a nuestro newsletter para recibir ofertas.</p>
-                        <form action="#" id="newsletter-form">
-                            <div class="input-group mb-3">
-                                <input class="form-control bg-transparent border-dark border-end-0" type="email" placeholder="Direccion Email" aria-label="Direccion Email">
-                                <button class="btn btn-outline-dark border-start-0" type="submit"><i class="fa fa-paper-plane text-lg"></i></button>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-1" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
                             </div>
-                        </form>
+                            <div class="part-2">
+                                <h3 class="product-title">Viñatero</h3>
+                                <h4 class="product-old-price">$precio</h4>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
                     </div>
-
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-2" class="single-product">
+                            <div class="part-1">
+                                <span class="discount">15% off</span>
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Argentinas</h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-3" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Cinco Sentidos Sauvignon
+                                </h3>
+                                <h4 class="product-old-price">$precio</h4>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-4" class="single-product">
+                            <div class="part-1">
+                                <span class="new">new</span>
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Cinco Sentidos Malbec
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-5" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Cinco Sentidos Gran Reserva
+                                </h3>
+                                <h4 class="product-old-price">$precio</h4>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-6" class="single-product">
+                            <div class="part-1">
+                                <span class="discount">15% off</span>
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Pala Corazon Malbec
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-7" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Marchiori Barraud</h3>
+                                <h4 class="product-old-price">$precio</h4>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-8" class="single-product">
+                            <div class="part-1">
+                                <span class="new">new</span>
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Punto Final Malbec
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-9" class="single-product">
+                            <div class="part-1">
+                                <span class="new">new</span>
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Colonia Las Liebres
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-10" class="single-product">
+                            <div class="part-1">
+                                <span class="new">new</span>
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Mariflor Malbec</h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-11" class="single-product">
+                            <div class="part-1">
+                                <span class="new">new</span>
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Crios Malbec</h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-12" class="single-product">
+                            <div class="part-1">
+                                <span class="new">new</span>
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Cinco Sentidos Reserva Malbec
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-13" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Finca las Nubes</h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-14" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Felino Malbec</h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-15" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Herencia Trabajo Malbec
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-16" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Cinco Sentidos Espumante Rose
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-17" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Mastroeni Dulce Natural
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-18" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Rebelado Wines Malbec
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product -->
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div id="product-19" class="single-product">
+                            <div class="part-1">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-shopping-cart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-heart"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-plus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="fas fa-expand"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">
+                                    Aqui Estamos Todos Locos
+                                </h3>
+                                <h4 class="product-price">$precio</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!--COPYRIGHT-->
-        <div class="py-4 bg-dark-gray text-gray-300">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center text-md-start">
-                        <p class="text-sm mb-md-0">&copy; 2022, Carmin Vineria. All rights reserved.</p>
+        <!--====== Footer ======-->
+
+        <footer>
+            <div class="py-6 bg-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <div
+                                class="fw-bold text-uppercase text-heading mb-3"
+                            >
+                                Carmin Vineria
+                            </div>
+                            <p>El vino humedece el alma y calma las penas.</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a
+                                        class="text-para"
+                                        href="https://instagram.com/carmin.vineria?igshid=YmMyMTA2M2Y="
+                                        target="_blank"
+                                        title="Instagram"
+                                        ><i class="fab fa-instagram"></i
+                                    ></a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a
+                                        class="text-para"
+                                        href="https://facebook.com"
+                                        target="_blank"
+                                        title="Facebook"
+                                        ><i class="fab fa-facebook"></i
+                                    ></a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a
+                                        class="text-para"
+                                        href="https://whatsapp.com"
+                                        target="_blank"
+                                        title="WhatsApp"
+                                        ><i class="fab fa-whatsapp"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                            <h6 class="text-uppercase text-heading mb-3">
+                                Links Importantes
+                            </h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-para" href="./nosotros.html"
+                                        >Sobre Nosotros</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="text-para" href="./vinos.html"
+                                        >Vinos</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="text-para" href="./contacto.html"
+                                        >Contacto</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                            <h6 class="text-uppercase text-heading mb-3">
+                                Politicas
+                            </h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a
+                                        class="text-para"
+                                        href="./terminoscondiciones.html"
+                                        >Terminos & Condiciones</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-para"
+                                        href="./politicaprivacidad.html"
+                                        >Politicas de Privacidad</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <h6 class="text-uppercase text-heading mb-3">
+                                Ofertas & Descuentos
+                            </h6>
+                            <p class="mb-3">
+                                Subcribite a nuestro newsletter para recibir
+                                ofertas.
+                            </p>
+                            <form action="#" id="newsletter-form">
+                                <div class="input-group mb-3">
+                                    <input
+                                        class="form-control bg-transparent border-dark border-end-0"
+                                        type="email"
+                                        placeholder="Direccion Email"
+                                        aria-label="Direccion Email"
+                                    />
+                                    <button
+                                        class="btn btn-outline-dark border-start-0"
+                                        type="submit"
+                                    >
+                                        <i
+                                            class="fa fa-paper-plane text-lg"
+                                        ></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
 
+            <!--COPYRIGHT-->
+            <div class="py-4 bg-dark-gray text-gray-300">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center text-md-start">
+                            <p class="text-sm mb-md-0">
+                                &copy; 2022, Carmin Vineria. All rights
+                                reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-
-    <!--====== Import de JS ======-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-    <script src="../js/script.js"></script>
-
-</body>
-
-
+        <!--====== Import de JS ======-->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+            crossorigin="anonymous"
+        ></script>
+        <script src="../js/script.js"></script>
+    </body>
 </html>

@@ -1,157 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--====== Insertar Favicon ======-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!--====== Titulo ======-->
-    <title>Carmin Vineria - Contacto</title>
-    <!--====== Import de CSS ======-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <!--====== Import de FontAwesome ======-->
-    <script src="https://kit.fontawesome.com/610e8864bc.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--====== Insertar Favicon ======-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <!--====== Titulo ======-->
+        <title>Carmin Vineria - Contacto</title>
+        <!--====== Import de CSS ======-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../css/style.css" />
+        <!--====== Import de FontAwesome ======-->
+        <script
+            src="https://kit.fontawesome.com/610e8864bc.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
 
-
-<body>
-    <!--====== Header ======-->
-    <header>
-                <!-- logo -->
-        <!--Navbar Bootstrap-->
-        <nav class="navbar navbar-light bg-white shadow-sm">
-            <div class="container justify-content-between">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../images/logo.jfif" width="auto" height="53" alt="logo Carmin Vinos">
-                </a>
-                <ul class="navbar-nav flex-row justify-content-between w-50 d-none d-md-flex">
-                    <li class="nav-item"><a class="nav-link" href="./nosotros.html">¿Quiénes somos?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./vinos.html">Nuestros vinos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./destacados.html">Destacados</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./delicomplementos.html">Deli y complementos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                </ul>
-                <button class="navbar-toggler d-flex d-md-none" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <a class="navbar-brand" href="./index.html">
-                            <img src="./assets/logo_carmin_vinos.png" width="auto" height="53"
-                                alt="logo Carmin Vinos">
-                        </a>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="./nosotros.html">¿Quiénes somos?</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./vinos.html">Nuestros vinos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./destacados.html">Destacados</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./delicomplementos.html">Deli y complementos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                        </ul>
+    <body>
+        <!--====== Header ======-->
+        <header>
+            <!-- logo -->
+            <!--Navbar Bootstrap-->
+            <nav class="navbar navbar-light bg-white shadow-sm">
+                <div class="container justify-content-between">
+                    <a class="navbar-brand" href="../index.html">
+                        <img
+                            src="../images/logo.jfif"
+                            width="auto"
+                            height="53"
+                            alt="logo Carmin Vinos"
+                        />
+                    </a>
+                    <ul
+                        class="navbar-nav flex-row justify-content-between w-50 d-none d-md-flex"
+                    >
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html"
+                                >¿Quiénes somos?</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./vinos.html"
+                                >Nuestros vinos</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./destacados.html"
+                                >Destacados</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./delicomplementos.html"
+                                >Deli y complementos</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html"
+                                >Contacto</a
+                            >
+                        </li>
+                    </ul>
+                    <button
+                        class="navbar-toggler d-flex d-md-none"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="offcanvas offcanvas-end"
+                        tabindex="-1"
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel"
+                    >
+                        <div class="offcanvas-header">
+                            <a class="navbar-brand" href="./index.html">
+                                <img
+                                    src="./assets/logo_carmin_vinos.png"
+                                    width="auto"
+                                    height="53"
+                                    alt="logo Carmin Vinos"
+                                />
+                            </a>
+                            <button
+                                type="button"
+                                class="btn-close text-reset"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./nosotros.html"
+                                        >¿Quiénes somos?</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./vinos.html"
+                                        >Nuestros vinos</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./destacados.html"
+                                        >Destacados</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        href="./delicomplementos.html"
+                                        >Deli y complementos</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contacto.html"
+                                        >Contacto</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-        <!-- Final Barra de Navegación y Menú -->
+            </nav>
+            <!-- Final Barra de Navegación y Menú -->
+        </header>
 
-    </header>
-
-
-    <!--====== Main ======-->
-    <main>
-
-    </main>
-
-
-
-
-
-
-
-    <!--====== Footer ======-->
-
-
-    <footer>
-        <div class="py-6 bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="fw-bold text-uppercase text-heading mb-3">Carmin Vineria</div>
-                        <p>El vino humedece el alma y calma las penas.</p>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a class="text-para" href="https://instagram.com/carmin.vineria?igshid=YmMyMTA2M2Y=" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a class="text-para" href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a class="text-para" href="https://whatsapp.com" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                            </li>
-                        </ul>
+        <!--====== Main ======-->
+        <!-- Wrapper container -->
+        <div class="container py-4 container-contacto">
+            <!-- Bootstrap 5 starter form -->
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <!-- Name input -->
+                <div class="mb-3">
+                    <label class="form-label" for="name">Nombre</label>
+                    <input
+                        class="form-control"
+                        id="name"
+                        type="text"
+                        placeholder="Nombre"
+                        data-sb-validations="required"
+                    />
+                    <div
+                        class="invalid-feedback"
+                        data-sb-feedback="name:required"
+                    >
+                        Nombre Requerido
                     </div>
+                </div>
 
-                    <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                        <h6 class="text-uppercase text-heading mb-3">Links Importantes</h6>
-                        <ul class="list-unstyled">
-                            <li><a class="text-para" href="./nosotros.html">Sobre Nosotros</a></li>
-                            <li><a class="text-para" href="./vinos.html">Vinos</a></li>
-                            <li><a class="text-para" href="./contacto.html">Contacto</a></li>
-                        </ul>
+                <!-- Email address input -->
+                <div class="mb-3">
+                    <label class="form-label" for="emailAddress">Email</label>
+                    <input
+                        class="form-control"
+                        id="emailAddress"
+                        type="email"
+                        placeholder="Direccion Email"
+                        data-sb-validations="required, email"
+                    />
+                    <div
+                        class="invalid-feedback"
+                        data-sb-feedback="emailAddress:required"
+                    >
+                        Direccion Email Requerida.
                     </div>
-
-                    <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                        <h6 class="text-uppercase text-heading mb-3">Politicas</h6>
-                        <ul class="list-unstyled">
-                            <li><a class="text-para" href="./terminoscondiciones.html">Terminos & Condiciones</a></li>
-                            <li><a class="text-para" href="./politicaprivacidad.html">Politicas de Privacidad</a></li>
-                        </ul>
+                    <div
+                        class="invalid-feedback"
+                        data-sb-feedback="emailAddress:email"
+                    >
+                        El email no es correcto.
                     </div>
+                </div>
 
-                    <div class="col-lg-4">
-                        <h6 class="text-uppercase text-heading mb-3">Ofertas & Descuentos</h6>
-                        <p class="mb-3">Subcribite a nuestro newsletter para recibir ofertas.</p>
-                        <form action="#" id="newsletter-form">
-                            <div class="input-group mb-3">
-                                <input class="form-control bg-transparent border-dark border-end-0" type="email" placeholder="Direccion Email" aria-label="Direccion Email">
-                                <button class="btn btn-outline-dark border-start-0" type="submit"><i class="fa fa-paper-plane text-lg"></i></button>
+                <!-- Message input -->
+                <div class="mb-3">
+                    <label class="form-label" for="message">Mensaje</label>
+                    <textarea
+                        class="form-control"
+                        id="message"
+                        type="text"
+                        placeholder="Mensaje"
+                        style="height: 10rem"
+                        data-sb-validations="required"
+                    ></textarea>
+                    <div
+                        class="invalid-feedback"
+                        data-sb-feedback="message:required"
+                    >
+                        El mensaje es requerido.
+                    </div>
+                </div>
+
+                <!-- Form submissions success message -->
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                        Mensaje enviado con exito!
+                    </div>
+                </div>
+
+                <!-- Form submissions error message -->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">
+                        Error al enviar mensaje!
+                    </div>
+                </div>
+
+                <!-- Form submit button -->
+                <div class="d-grid">
+                    <button
+                        class="btn btn-primary btn-lg disabled"
+                        id="submitButton"
+                        type="submit"
+                    >
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!--====== Footer ======-->
+
+        <footer>
+            <div class="py-6 bg-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <div
+                                class="fw-bold text-uppercase text-heading mb-3"
+                            >
+                                Carmin Vineria
                             </div>
-                        </form>
-                    </div>
+                            <p>El vino humedece el alma y calma las penas.</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a
+                                        class="text-para"
+                                        href="https://instagram.com/carmin.vineria?igshid=YmMyMTA2M2Y="
+                                        target="_blank"
+                                        title="Instagram"
+                                        ><i class="fab fa-instagram"></i
+                                    ></a>
+                                </li>
 
+                                <li class="list-inline-item">
+                                    <a
+                                        class="text-para"
+                                        href="https://facebook.com"
+                                        target="_blank"
+                                        title="Facebook"
+                                        ><i class="fab fa-facebook"></i
+                                    ></a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a
+                                        class="text-para"
+                                        href="https://whatsapp.com"
+                                        target="_blank"
+                                        title="WhatsApp"
+                                        ><i class="fab fa-whatsapp"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                            <h6 class="text-uppercase text-heading mb-3">
+                                Links Importantes
+                            </h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-para" href="./nosotros.html"
+                                        >Sobre Nosotros</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="text-para" href="./vinos.html"
+                                        >Vinos</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="text-para" href="./contacto.html"
+                                        >Contacto</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                            <h6 class="text-uppercase text-heading mb-3">
+                                Politicas
+                            </h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a
+                                        class="text-para"
+                                        href="./terminoscondiciones.html"
+                                        >Terminos & Condiciones</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-para"
+                                        href="./politicaprivacidad.html"
+                                        >Politicas de Privacidad</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <h6 class="text-uppercase text-heading mb-3">
+                                Ofertas & Descuentos
+                            </h6>
+                            <p class="mb-3">
+                                Subcribite a nuestro newsletter para recibir
+                                ofertas.
+                            </p>
+                            <form action="#" id="newsletter-form">
+                                <div class="input-group mb-3">
+                                    <input
+                                        class="form-control bg-transparent border-dark border-end-0"
+                                        type="email"
+                                        placeholder="Direccion Email"
+                                        aria-label="Direccion Email"
+                                    />
+                                    <button
+                                        class="btn btn-outline-dark border-start-0"
+                                        type="submit"
+                                    >
+                                        <i
+                                            class="fa fa-paper-plane text-lg"
+                                        ></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!--COPYRIGHT-->
-        <div class="py-4 bg-dark-gray text-gray-300">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center text-md-start">
-                        <p class="text-sm mb-md-0">&copy; 2022, Carmin Vineria. All rights reserved.</p>
+            <!--COPYRIGHT-->
+            <div class="py-4 bg-dark-gray text-gray-300">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center text-md-start">
+                            <p class="text-sm mb-md-0">
+                                &copy; 2022, Carmin Vineria. All rights
+                                reserved.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-
-
-    <!--====== Import de JS ======-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-    <script src="../js/script.js"></script>
-
-</body>
-
-
+        <!--====== Import de JS ======-->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+            crossorigin="anonymous"
+        ></script>
+        <script src="../js/script.js"></script>
+    </body>
 </html>

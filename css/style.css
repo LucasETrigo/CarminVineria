@@ -1,17 +1,12 @@
 /*====== Importar Font de google fonts ======*/
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-
 /*====== Footer ======*/
-
 
 .p-70 {
     padding: 70px;
@@ -20,8 +15,7 @@
 .py-6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
-
-} 
+}
 
 .bg-gray {
     background-color: #e9ecef;
@@ -39,7 +33,7 @@
     list-style-type: none;
     padding-left: 0;
 }
-.list-unstyled li a{
+.list-unstyled li a {
     text-decoration: none;
 }
 .list-unstyled li a:hover {
@@ -71,10 +65,7 @@
     color: #dee2e6;
 }
 
-
-
 /* PAGINA: SOBRE NOSOTROS */
-
 
 .nosotros-main {
     background-color: #f1f1f1;
@@ -101,10 +92,6 @@
     text-align: center;
 }
 
-
-
-
-
 /* PAGINA: VINOS */
 .section-products {
     padding: 80px 0 54px;
@@ -123,7 +110,7 @@
 .section-products .header h2 {
     font-size: 2.2rem;
     font-weight: 400;
-    color: #444444; 
+    color: #444444;
 }
 
 .section-products .single-product {
@@ -139,113 +126,132 @@
 }
 
 .section-products .single-product .part-1::before {
-		position: absolute;
-		content: "";
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: -1;
-		transition: all 0.3s;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
 }
 
 .section-products .single-product:hover .part-1::before {
-		transform: scale(1.2,1.2) rotate(5deg);
+    transform: scale(1.2, 1.2) rotate(5deg);
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("../images/FotoProducto/1\ -\ Viñatero.png") no-repeat center;
+    background: url("../images/FotoProducto/1\ -\ Viñatero.png") no-repeat
+        center;
     background-size: cover;
-		transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("../images/FotoProducto/2-\ Viñas\ Argentinas.png") no-repeat center;
+    background: url("../images/FotoProducto/2-\ Viñas\ Argentinas.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("../images/FotoProducto/3-\ Cinco\ Sentidos\ Special\ Blend\ \(Sauvignon\ Blanc_Chardonnay\).png") no-repeat center;
+    background: url("../images/FotoProducto/3-\ Cinco\ Sentidos\ Special\ Blend\ \(Sauvignon\ Blanc_Chardonnay\).png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("../images/FotoProducto/4-\ Cinco\ Sentidos\ Special\ Blend\ \(Malbec-Ancellota\).png") no-repeat center;
+    background: url("../images/FotoProducto/4-\ Cinco\ Sentidos\ Special\ Blend\ \(Malbec-Ancellota\).png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-5 .part-1::before {
-    background: url("../images/FotoProducto/5-\ Cinco\ Sentidos\ Gran\ Reserva.png") no-repeat center;
+    background: url("../images/FotoProducto/5-\ Cinco\ Sentidos\ Gran\ Reserva.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-6 .part-1::before {
-    background: url("../images/FotoProducto/6-\ Pala\ Corazón\ Malbec\ Gualtallary.png") no-repeat center;
+    background: url("../images/FotoProducto/6-\ Pala\ Corazón\ Malbec\ Gualtallary.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-7 .part-1::before {
-    background: url("../images/FotoProducto/7-\ Marchiori\ _\ Barraud.png") no-repeat center;
+    background: url("../images/FotoProducto/7-\ Marchiori\ _\ Barraud.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-8 .part-1::before {
-    background: url("../images/FotoProducto/8-\ Punto\ Final\ Malbec\ -\ Bodega\ Renacer.png") no-repeat center;
+    background: url("../images/FotoProducto/8-\ Punto\ Final\ Malbec\ -\ Bodega\ Renacer.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-9 .part-1::before {
-    background: url("../images/FotoProducto/9-\ Colonia\ Las\ Liebres\ -\ Bonarda.png") no-repeat center;
+    background: url("../images/FotoProducto/9-\ Colonia\ Las\ Liebres\ -\ Bonarda.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-10 .part-1::before {
-    background: url("../images/FotoProducto/10-\ Mariflor\ Malbec\ -\ Michel\ Rolland.png") no-repeat center;
+    background: url("../images/FotoProducto/10-\ Mariflor\ Malbec\ -\ Michel\ Rolland.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-11 .part-1::before {
-    background: url("../images/FotoProducto/11-\ Crios\ Malbec\ -\ Susana\ Balbo.png") no-repeat center;
+    background: url("../images/FotoProducto/11-\ Crios\ Malbec\ -\ Susana\ Balbo.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-12 .part-1::before {
-    background: url("../images/FotoProducto/12-\ Cinco\ Sentidos\ Reserva\ Malbec.png") no-repeat center;
+    background: url("../images/FotoProducto/12-\ Cinco\ Sentidos\ Reserva\ Malbec.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-13 .part-1::before {
-    background: url("../images/FotoProducto/13-\ Finca\ las\ Nubes\ -\ Salta.png") no-repeat center;
+    background: url("../images/FotoProducto/13-\ Finca\ las\ Nubes\ -\ Salta.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-14 .part-1::before {
-    background: url("../images/FotoProducto/14-\ Felino\ Malbec\ -\ Viña\ COBOS.png") no-repeat center;
+    background: url("../images/FotoProducto/14-\ Felino\ Malbec\ -\ Viña\ COBOS.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-15 .part-1::before {
-    background: url("../images/FotoProducto/15-\ Herencia\ Trabajo\ Malbec\ -\ bodega\ Polo.png") no-repeat center;
+    background: url("../images/FotoProducto/15-\ Herencia\ Trabajo\ Malbec\ -\ bodega\ Polo.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-16 .part-1::before {
-    background: url("../images/FotoProducto/16-\ Cinco\ Sentidos\ espumate\ Rosé.png") no-repeat center;
+    background: url("../images/FotoProducto/16-\ Cinco\ Sentidos\ espumate\ Rosé.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-17 .part-1::before {
-    background: url("../images/FotoProducto/17-\ Mastroeni\ -\ Dulce\ natural.png") no-repeat center;
+    background: url("../images/FotoProducto/17-\ Mastroeni\ -\ Dulce\ natural.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-18 .part-1::before {
-    background: url("../images/FotoProducto/18-\ Rebelado\ Wines\ malbec.png") no-repeat center;
+    background: url("../images/FotoProducto/18-\ Rebelado\ Wines\ malbec.png")
+        no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-19 .part-1::before {
-    background: url("../images/FotoProducto/19-\ Aquí\ estamos\ todos\ locos\ Tempranillo_Ancellota\ .png") no-repeat center;
+    background: url("../images/FotoProducto/19-\ Aquí\ estamos\ todos\ locos\ Tempranillo_Ancellota\ .png")
+        no-repeat center;
     background-size: cover;
 }
 
@@ -328,4 +334,11 @@
     height: 1px;
     background-color: #444444;
     transform: translateY(-50%);
+}
+
+/* PAGINA: CONTACTO */
+.container-contacto {
+    min-height: 600px;
+    position: relative;
+    top: 100px;
 }
