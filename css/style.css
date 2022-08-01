@@ -78,11 +78,12 @@
 
 .nosotros-main {
     background-color: #f1f1f1;
+    min-height: 500px;
 }
 
 .container-nosotros {
     position: relative;
-    top: 240px;
+    top: 170px;
 }
 
 .container-nosotros h1 {
