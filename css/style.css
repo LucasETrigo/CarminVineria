@@ -12,9 +12,6 @@
 
 /*====== Footer ======*/
 
-footer {
-    margin-top: 517px;
-}
 
 .p-70 {
     padding: 70px;
@@ -79,70 +76,255 @@ footer {
 /* PAGINA: SOBRE NOSOTROS */
 
 
-nosotros-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nosotros-main {
     background-color: #f1f1f1;
 }
 
-.about-section{
-    background: url(pic.jpg) no-repeat left;
-    background-size: 55%;
-    background-color: #fdfdfd;
+.container-nosotros {
+    position: relative;
+    top: 240px;
+}
+
+.container-nosotros h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.container-nosotros p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    text-align: center;
+}
+
+
+
+
+
+/* PAGINA: VINOS */
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
     overflow: hidden;
-    padding: 100px 0;
 }
 
-.inner-container-nosotros{
-    width: 55%;
-    float: right;
-    background-color: #fdfdfd;
-    padding: 150px;
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
 }
 
-.inner-container-nosotros h1{
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
+.section-products .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
 }
 
-.text-nosotros{
-    font-size: 13px;
-    color: #545454;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
+.section-products #product-1 .part-1::before {
+    background: url("../images/FotoProducto/1\ -\ Viñatero.png") no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
 }
 
-.nosotros-complementos{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-    font-size: 13px;
+.section-products #product-2 .part-1::before {
+    background: url("../images/FotoProducto/2-\ Viñas\ Argentinas.png") no-repeat center;
+    background-size: cover;
 }
 
-@media screen and (max-width:1200px){
-    .inner-container{
-        padding: 80px;
-    }
+.section-products #product-3 .part-1::before {
+    background: url("../images/FotoProducto/3-\ Cinco\ Sentidos\ Special\ Blend\ \(Sauvignon\ Blanc_Chardonnay\).png") no-repeat center;
+    background-size: cover;
 }
 
-@media screen and (max-width:1000px){
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    .inner-container{
-        width: 100%;
-    }
+.section-products #product-4 .part-1::before {
+    background: url("../images/FotoProducto/4-\ Cinco\ Sentidos\ Special\ Blend\ \(Malbec-Ancellota\).png") no-repeat center;
+    background-size: cover;
 }
 
-@media screen and (max-width:600px){
-    .about-section{
-        padding: 0;
-    }
-    .inner-container{
-        padding: 60px;
-    }
+.section-products #product-5 .part-1::before {
+    background: url("../images/FotoProducto/5-\ Cinco\ Sentidos\ Gran\ Reserva.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-6 .part-1::before {
+    background: url("../images/FotoProducto/6-\ Pala\ Corazón\ Malbec\ Gualtallary.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-7 .part-1::before {
+    background: url("../images/FotoProducto/7-\ Marchiori\ _\ Barraud.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-8 .part-1::before {
+    background: url("../images/FotoProducto/8-\ Punto\ Final\ Malbec\ -\ Bodega\ Renacer.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-9 .part-1::before {
+    background: url("../images/FotoProducto/9-\ Colonia\ Las\ Liebres\ -\ Bonarda.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-10 .part-1::before {
+    background: url("../images/FotoProducto/10-\ Mariflor\ Malbec\ -\ Michel\ Rolland.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-11 .part-1::before {
+    background: url("../images/FotoProducto/11-\ Crios\ Malbec\ -\ Susana\ Balbo.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-12 .part-1::before {
+    background: url("../images/FotoProducto/12-\ Cinco\ Sentidos\ Reserva\ Malbec.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-13 .part-1::before {
+    background: url("../images/FotoProducto/13-\ Finca\ las\ Nubes\ -\ Salta.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-14 .part-1::before {
+    background: url("../images/FotoProducto/14-\ Felino\ Malbec\ -\ Viña\ COBOS.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-15 .part-1::before {
+    background: url("../images/FotoProducto/15-\ Herencia\ Trabajo\ Malbec\ -\ bodega\ Polo.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-16 .part-1::before {
+    background: url("../images/FotoProducto/16-\ Cinco\ Sentidos\ espumate\ Rosé.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-17 .part-1::before {
+    background: url("../images/FotoProducto/17-\ Mastroeni\ -\ Dulce\ natural.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-18 .part-1::before {
+    background: url("../images/FotoProducto/18-\ Rebelado\ Wines\ malbec.png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-19 .part-1::before {
+    background: url("../images/FotoProducto/19-\ Aquí\ estamos\ todos\ locos\ Tempranillo_Ancellota\ .png") no-repeat center;
+    background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+    color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
 }
