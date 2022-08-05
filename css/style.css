@@ -92,6 +92,31 @@
     text-align: center;
 }
 
+
+/* PAGINA TERMINOS Y CONDICIONES */
+.container-terminos-nosotros {
+    position: relative;
+    top: 140px;
+    min-height: 1650px;
+}
+
+.container-terminos-nosotros h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.container-terminos-nosotros p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    text-align: center;
+}
+
+
+
 /* PAGINA: VINOS */
 .section-products {
     padding: 80px 0 54px;
