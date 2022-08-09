@@ -16,6 +16,9 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="../css/style.css" />
+        <!-- CSS Mailchimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet"
+    type="text/css">
         <!--====== Import de FontAwesome ======-->
         <script
             src="https://kit.fontawesome.com/610e8864bc.js"
@@ -85,7 +88,7 @@
                         <div class="offcanvas-header">
                             <a class="navbar-brand" href="./index.html">
                                 <img
-                                    src="./assets/logo_carmin_vinos.png"
+                                    src="../images/logo.jfif"
                                     width="auto"
                                     height="53"
                                     alt="logo Carmin Vinos"
@@ -456,33 +459,46 @@
                             </ul>
                         </div>
 
-                        <div class="col-lg-4">
-                            <h6 class="text-uppercase text-heading mb-3">
-                                Ofertas & Descuentos
-                            </h6>
-                            <p class="mb-3">
-                                Subcribite a nuestro newsletter para recibir
-                                ofertas.
-                            </p>
-                            <form action="#" id="newsletter-form">
-                                <div class="input-group mb-3">
-                                    <input
-                                        class="form-control bg-transparent border-dark border-end-0"
-                                        type="email"
-                                        placeholder="Direccion Email"
-                                        aria-label="Direccion Email"
-                                    />
-                                    <button
-                                        class="btn btn-outline-dark border-start-0"
-                                        type="submit"
-                                    >
-                                        <i
-                                            class="fa fa-paper-plane text-lg"
-                                        ></i>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
+                        <div class="col-lg-4 container">
+                            <div id="mc_embed_signup">
+                                <form
+                                    action="https://outlook.us12.list-manage.com/subscribe/post?u=0c805d5afab3bbfbd663c9e1e&amp;id=d8eb71b75e&amp;f_id=00ffb7e0f0"
+                                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                                    class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+                                        <h2>Suscribite a nuestro newsletter</h2>
+                                        <div class="indicates-required"><span class="asterisk">*</span> indica requerido</div>
+                                        <div class="mc-field-group">
+                                            <label for="mce-EMAIL">Dirección de correo electrónico<span class="asterisk">*</span>
+                                            </label>
+                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                            <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                        </div>
+                                        <div id="mce-responses" class="clear foot">
+                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                        </div>
+                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                                name="b_0c805d5afab3bbfbd663c9e1e_d8eb71b75e" tabindex="-1" value=""></div>
+                                        <div class="optionalParent">
+                                            <div class="clear foot">
+                                                <input type="submit" value="Subscribe" name="subscribe"
+                                                    id="mc-embedded-subscribe" class="button" placeholder="Ofertas y descuentos en tu email">
+                                                <p class="brandingLogo"><a href="http://eepurl.com/h8nZ-H"
+                                                        title="Mailchimp - email marketing made easy and fun"><img
+                                                            src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <script type='text/javascript'
+                                src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                            <script
+                                type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+                            <!--End mc_embed_signup-->
                     </div>
                 </div>
             </div>
