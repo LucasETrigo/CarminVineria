@@ -1,9 +1,25 @@
 /*====== Importar Font de google fonts ======*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.titulo-font {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+.purple {
+    background-color: #7d3cff;
+}
+.purple-color {
+    color: #7d3cff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
 }
 
 /*====== Footer ======*/
@@ -91,7 +107,6 @@
     text-align: center;
 }
 
-
 /* PAGINA TERMINOS Y CONDICIONES */
 .container-terminos-nosotros {
     position: relative;
@@ -113,8 +128,6 @@
     color: #6c757d;
     text-align: center;
 }
-
-
 
 /* PAGINA: VINOS */
 .section-products {
@@ -151,7 +164,7 @@
 
 .section-products .single-product .part-1::before {
     position: absolute;
-    content: "";
+    content: '';
     top: 0;
     left: 0;
     width: 100%;
@@ -165,116 +178,116 @@
 }
 
 .section-products #product-1 .part-1::before {
-    background: url("../images/FotoProducto/1\ -\ Viñatero.png") no-repeat
+    background: url('../images/FotoProducto/1\ -\ Viñatero.png') no-repeat
         center;
     background-size: cover;
     transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url("../images/FotoProducto/2-\ Viñas\ Argentinas.png")
+    background: url('../images/FotoProducto/2-\ Viñas\ Argentinas.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url("../images/FotoProducto/3-\ Cinco\ Sentidos\ Special\ Blend\ \(Sauvignon\ Blanc_Chardonnay\).png")
+    background: url('../images/FotoProducto/3-\ Cinco\ Sentidos\ Special\ Blend\ \(Sauvignon\ Blanc_Chardonnay\).png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url("../images/FotoProducto/4-\ Cinco\ Sentidos\ Special\ Blend\ \(Malbec-Ancellota\).png")
+    background: url('../images/FotoProducto/4-\ Cinco\ Sentidos\ Special\ Blend\ \(Malbec-Ancellota\).png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-5 .part-1::before {
-    background: url("../images/FotoProducto/5-\ Cinco\ Sentidos\ Gran\ Reserva.png")
+    background: url('../images/FotoProducto/5-\ Cinco\ Sentidos\ Gran\ Reserva.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-6 .part-1::before {
-    background: url("../images/FotoProducto/6-\ Pala\ Corazón\ Malbec\ Gualtallary.png")
+    background: url('../images/FotoProducto/6-\ Pala\ Corazón\ Malbec\ Gualtallary.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-7 .part-1::before {
-    background: url("../images/FotoProducto/7-\ Marchiori\ _\ Barraud.png")
+    background: url('../images/FotoProducto/7-\ Marchiori\ _\ Barraud.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-8 .part-1::before {
-    background: url("../images/FotoProducto/8-\ Punto\ Final\ Malbec\ -\ Bodega\ Renacer.png")
+    background: url('../images/FotoProducto/8-\ Punto\ Final\ Malbec\ -\ Bodega\ Renacer.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-9 .part-1::before {
-    background: url("../images/FotoProducto/9-\ Colonia\ Las\ Liebres\ -\ Bonarda.png")
+    background: url('../images/FotoProducto/9-\ Colonia\ Las\ Liebres\ -\ Bonarda.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-10 .part-1::before {
-    background: url("../images/FotoProducto/10-\ Mariflor\ Malbec\ -\ Michel\ Rolland.png")
+    background: url('../images/FotoProducto/10-\ Mariflor\ Malbec\ -\ Michel\ Rolland.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-11 .part-1::before {
-    background: url("../images/FotoProducto/11-\ Crios\ Malbec\ -\ Susana\ Balbo.png")
+    background: url('../images/FotoProducto/11-\ Crios\ Malbec\ -\ Susana\ Balbo.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-12 .part-1::before {
-    background: url("../images/FotoProducto/12-\ Cinco\ Sentidos\ Reserva\ Malbec.png")
+    background: url('../images/FotoProducto/12-\ Cinco\ Sentidos\ Reserva\ Malbec.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-13 .part-1::before {
-    background: url("../images/FotoProducto/13-\ Finca\ las\ Nubes\ -\ Salta.png")
+    background: url('../images/FotoProducto/13-\ Finca\ las\ Nubes\ -\ Salta.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-14 .part-1::before {
-    background: url("../images/FotoProducto/14-\ Felino\ Malbec\ -\ Viña\ COBOS.png")
+    background: url('../images/FotoProducto/14-\ Felino\ Malbec\ -\ Viña\ COBOS.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-15 .part-1::before {
-    background: url("../images/FotoProducto/15-\ Herencia\ Trabajo\ Malbec\ -\ bodega\ Polo.png")
+    background: url('../images/FotoProducto/15-\ Herencia\ Trabajo\ Malbec\ -\ bodega\ Polo.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-16 .part-1::before {
-    background: url("../images/FotoProducto/16-\ Cinco\ Sentidos\ espumate\ Rosé.png")
+    background: url('../images/FotoProducto/16-\ Cinco\ Sentidos\ espumate\ Rosé.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-17 .part-1::before {
-    background: url("../images/FotoProducto/17-\ Mastroeni\ -\ Dulce\ natural.png")
+    background: url('../images/FotoProducto/17-\ Mastroeni\ -\ Dulce\ natural.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-18 .part-1::before {
-    background: url("../images/FotoProducto/18-\ Rebelado\ Wines\ malbec.png")
+    background: url('../images/FotoProducto/18-\ Rebelado\ Wines\ malbec.png')
         no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-19 .part-1::before {
-    background: url("../images/FotoProducto/19-\ Aquí\ estamos\ todos\ locos\ Tempranillo_Ancellota\ .png")
+    background: url('../images/FotoProducto/19-\ Aquí\ estamos\ todos\ locos\ Tempranillo_Ancellota\ .png')
         no-repeat center;
     background-size: cover;
 }
@@ -351,7 +364,7 @@
 
 .section-products .single-product .part-2 .product-old-price::after {
     position: absolute;
-    content: "";
+    content: '';
     top: 50%;
     left: 0;
     width: 100%;
@@ -368,25 +381,68 @@
 }
 
 .whatsapp {
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:40px;
-    background-color:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    z-index:100;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
     cursor: pointer;
-  }
-  
-  .whatsapp-icon {
-    margin-top:13px;
-  }
+}
 
-  color-fondo {
+.whatsapp-icon {
+    margin-top: 13px;
+}
+
+color-fondo {
     background-color: #f3f3f3;
-  }
+}
 
+.button-40 {
+    background-color: #7d3cff;
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: 'Inter var', ui-sans-serif, system-ui, -apple-system, system-ui,
+        'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: 0.75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6b7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: 0.2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.button-40:hover {
+    background-color: #374151;
+}
+
+.button-40:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+    .button-40 {
+        padding: 0.75rem 1.5rem;
+    }
+}
