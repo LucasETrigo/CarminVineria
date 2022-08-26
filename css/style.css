@@ -21,7 +21,26 @@
     font-weight: bold;
     font-family: 'Cinzel', serif;
 }
+.purple-color-subtitle {
+    font-size: 13px;
+    color: #7d3cff;
+}
 
+.navbar-light {
+    background-color: #060606 !important;
+    border: none !important;
+    border-width: 0 !important;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+}
+.nav-link:hover {
+    color: #7d3cff;
+}
 /*====== Footer ======*/
 
 .p-70 {
@@ -445,4 +464,62 @@ color-fondo {
     .button-40 {
         padding: 0.75rem 1.5rem;
     }
+}
+
+/* CAROUSEL */
+
+.carousel__contenedor {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: black;
+    opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+    opacity: 100%;
+}
+
+.carousel__siguiente {
+    right: -30px;
+}
+
+.carousel__lista {
+    overflow: hidden;
+}
+
+.carousel__indicadores .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: black;
+    opacity: 0.2;
+    border-radius: 0;
+    position: relative;
+    top: 20px;
+}
+
+.carousel__indicadores .glider-dot:hover {
+    opacity: 0.5;
+}
+
+.carousel__indicadores .glider-dot.active {
+    opacity: 1;
 }
