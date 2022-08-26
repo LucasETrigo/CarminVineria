@@ -27,19 +27,23 @@
 }
 
 .navbar-light {
-    background-color: #060606 !important;
+    background-color: rgb(253, 247, 247) !important;
     border: none !important;
     border-width: 0 !important;
 }
 
 .nav-link {
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: 'Cinzel', serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 .nav-link:hover {
     color: #7d3cff;
+}
+
+.bg-black {
+    background-color: #060606 !important;
 }
 /*====== Footer ======*/
 
@@ -513,7 +517,6 @@ color-fondo {
     opacity: 0.2;
     border-radius: 0;
     position: relative;
-    top: 20px;
 }
 
 .carousel__indicadores .glider-dot:hover {
